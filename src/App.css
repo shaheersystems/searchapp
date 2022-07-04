@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@600;700&family=Poppins:wght@400;900&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", calibri;
+}
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+.banner {
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Fira Code", calibri;
+}
+
+.banner h1 {
+  font-size: 30px;
+}
+.search-bar {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-bar input {
+  padding: 14px 25px;
+  width: 50%;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  font-size: 22px;
+  outline: none;
+}
+.search-bar input:focus {
+  border-color: black;
+}
+.cards {
+  padding: 50px 0px;
+  display: flex;
+  min-height: 40vh;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card {
+  min-height: 15vh;
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  gap: 20px;
+  border-radius: 5px;
+}
+.card a {
+  text-decoration: none;
+  padding: 5px 25px;
+  color: black;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  text-align: center;
+  border: 1px solid transparent;
+}
+.card a:hover {
+  border-color: black;
+  transition: 0.2s all;
+}
+.heading {
+  height: 15vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+}
